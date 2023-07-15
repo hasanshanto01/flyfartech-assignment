@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import React, { useContext } from 'react';
+import { StateContext } from '../../../Context/StateProvider';
 
 const BookNow = () => {
 
-    const [isHide, setIsHide] = useState(true);
+    const { isHide, setIsHide } = useContext(StateContext);
 
     const changeHideStatus = (status) => {
         setIsHide(status)

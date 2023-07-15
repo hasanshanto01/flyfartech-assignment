@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
+import React, { useContext } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlane } from '@fortawesome/free-solid-svg-icons'
+import { StateContext } from '../../../Context/StateProvider';
 
 const FlightView = () => {
 
-    const [isGoing, setIsGoing] = useState(true);
+    const { isGoing, setIsGoing } = useContext(StateContext);
 
     const changeGoingStatus = (status) => {
         setIsGoing(status)
@@ -19,7 +20,7 @@ const FlightView = () => {
             name: 'JFK',
             airport: 'JF Kennedy Intl Airport'
         }
-    ]
+    ];
 
     return (
         <div>
