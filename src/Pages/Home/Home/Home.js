@@ -3,7 +3,7 @@ import BimanBangladesh from '../BimanBangladesh/BimanBangladesh';
 const Home = () => {
 
     return (
-        <div>
+        <div data-theme="light">
             <BimanBangladesh></BimanBangladesh>
         </div>
     );

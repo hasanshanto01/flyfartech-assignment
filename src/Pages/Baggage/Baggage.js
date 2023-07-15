@@ -22,7 +22,7 @@ const Baggage = () => {
     ];
 
     return (
-        <div className="overflow-x-auto border border-yellow-500 p-10">
+        <div className="overflow-x-auto p-10" data-theme="light">
             <table className="table table-zebra">
                 {/* head */}
                 <thead className='bg-primary text-white'>

@@ -4,7 +4,8 @@ module.exports = {
   daisyui: {
     themes: [
       {
-        mytheme: {
+        light: {
+          ...require("daisyui/src/theming/themes")["[data-theme=light]"],
 
           "primary": "#32D095",
 
@@ -25,6 +26,8 @@ module.exports = {
           "error": "#E58B8B",
         },
       },
+      "autumn",
+      "light"
     ],
   },
   plugins: [require("daisyui")],
