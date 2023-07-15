@@ -11,7 +11,7 @@ const StateProvider = ({ children }) => {
         isGoing,
         setIsGoing,
         isHide,
-        setIsHide
+        setIsHide,
     };
 
     return (

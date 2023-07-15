@@ -35,7 +35,8 @@ const Baggage = () => {
                 <tbody className=' bg-accent'>
                     {/* row */}
                     {
-                        baggageDatas.map((baggageData => <BaggageTable
+                        baggageDatas.map(((baggageData, index) => <BaggageTable
+                            key={index}
                             baggageData={baggageData}
                         ></BaggageTable>))
                     }

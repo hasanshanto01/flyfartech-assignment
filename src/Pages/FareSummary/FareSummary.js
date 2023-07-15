@@ -51,7 +51,8 @@ const FareSummary = () => {
                 <tbody className=' bg-accent'>
                     {/* row */}
                     {
-                        fareSummaryDatas.map((fareSummaryData => <FareSummaryTable
+                        fareSummaryDatas.map(((fareSummaryData, index) => <FareSummaryTable
+                            key={index}
                             fareSummaryData={fareSummaryData}
                         ></FareSummaryTable>))
                     }
