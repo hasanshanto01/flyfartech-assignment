@@ -11,13 +11,15 @@ const Main = () => {
     return (
         <div className='w-[1080px] mx-auto'>
             <Home></Home>
-            {
-                isHide ? <></> :
-                    <>
-                        <Menu></Menu>
-                        <Outlet></Outlet>
-                    </>
-            }
+            <div className='w-[864px] '>
+                {
+                    isHide ? <></> :
+                        <>
+                            <Menu></Menu>
+                            <Outlet></Outlet>
+                        </>
+                }
+            </div>
         </div>
     );
 };

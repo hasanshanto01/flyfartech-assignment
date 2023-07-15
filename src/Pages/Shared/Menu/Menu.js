@@ -6,7 +6,7 @@ const Menu = ({ isHide, setIsHide }) => {
     return (
         <>
             {
-                isHide ? <></> : <div className="w-[864px] p-4 border border-red-700 grid grid-cols-4">
+                isHide ? <></> : <div className="p-4 border border-red-700 grid grid-cols-4">
                     <NavLink to='/' className='w-4/5 mx-auto p-2 rounded-lg text-center font-semibold' style={({ isActive }) => {
                         return {
                             color: isActive ? "white" : "black",
