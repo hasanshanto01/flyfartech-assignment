@@ -1,7 +1,7 @@
 # Fly Far Tech Assignment
 
 ## Technologies
-A list of technologies used within the project:
+A list of technologies and libraries used within the project:
 * [React](https://create-react-app.dev/)
 * [React Router](https://reactrouter.com/en/main)
 * [Tailwind CSS](https://tailwindcss.com/)

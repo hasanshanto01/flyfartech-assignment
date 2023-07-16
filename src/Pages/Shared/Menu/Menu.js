@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-const Menu = ({ isHide, setIsHide }) => {
+const Menu = ({ isHide }) => {
 
     return (
         <div data-theme="light">
