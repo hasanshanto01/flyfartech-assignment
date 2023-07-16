@@ -9,9 +9,9 @@ const Main = () => {
     const { isHide } = useContext(StateContext);
 
     return (
-        <div className='w-[1080px] mx-auto mt-10 mb-32'>
+        <div className='max-w-[1080px] mx-auto lg:mt-10 lg:mb-32'>
             <Home></Home>
-            <div className='w-[864px] '>
+            <div className='max-w-[864px] '>
                 {
                     isHide ? <></> :
                         <>
